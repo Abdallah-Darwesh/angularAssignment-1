@@ -1,0 +1,41 @@
+.contact
+{
+    background-color: #22333b;
+    color: white;
+    height: 65vh;
+    padding-top: 100px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.line{
+    background-color: white;
+    height: 3px;
+    width: 90px;
+    border-radius: 10px 10px 10px 0px;   
+}
+
+.form input
+{
+    border: none;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #000000;
+    box-shadow:5px 5px 5px #000000;
+}
+
+.form button
+{
+    margin-top: 10px !important;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}

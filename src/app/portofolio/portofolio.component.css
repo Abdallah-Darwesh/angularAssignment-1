@@ -1,0 +1,64 @@
+.portofolio
+{
+    display: flex;
+    background-color: #22333b;
+    color: white;
+    padding: 50px 0;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+   
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.line{
+    background-color: white;
+    height: 3px;
+    width: 90px;
+    border-radius: 10px 10px 10px 0px;   
+}
+.row img{
+    border-radius: 10px;
+    cursor: pointer !important;;
+    vertical-align: middle !important;;
+}
+.row .lay{
+    position: relative;
+    text-align: center;
+}
+.row .lay i
+{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    font-size: 80px;
+
+    color: white;
+    display: none !important;
+    cursor: pointer !important;
+
+}
+
+.row .lay:hover i
+{
+    background-color: rgba(0, 0, 0, 0.863);
+    display: block !important;
+    border-radius: 50%;
+
+    padding:60px 65px;
+
+}
+
+@media  screen and (min-width: 999px) {
+    .row .lay:hover i
+    {
+        padding:80px 85px;
+    }
+  }
+
+  

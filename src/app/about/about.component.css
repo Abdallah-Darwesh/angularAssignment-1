@@ -1,0 +1,22 @@
+.acard{
+    background-color: #c6ac8f;
+    color: white;
+    border-radius: 0;
+    padding: 20px;
+    height: 65vh;
+    padding: 150px 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.line{
+    background-color: white;
+    height: 3px;
+    width: 90px;
+    border-radius: 10px 10px 10px 0px;   
+}
+
